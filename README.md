@@ -38,4 +38,12 @@ Once you download the PRISMA hyperspectral image you will have an HDF5 file, the
 Note: if you already have the hyperspectral or multispectral data with the panchromatic image from another satellite, you must view the data format and generate a hyper[i,j,n] matrix where n corresponds to the spectral bands.  In addition, a PANCHRO[I,J] matrix corresponding to the panchromatic image must be generated. Once this is done, you can move on to the preprocessing step. 
 
 ## Results:
+The following image shows a comparison between the panchromatic image, a hyperspectral band and the result of the PCA pansharpening method.
+
+- Pancrhomatic shape: (6000, 6000) 
+- Hyperspectral shape: (1000, 1000, 63)
+- PCA pansharpened shape: (6000, 6000, 63)
+
+![hyper_comparasion](https://github.com/smarvar/pansharpening-hyperespectral/blob/main/panchromatic_hyperspectral_PCA-pansharpened.png)
+
 
