@@ -17,6 +17,9 @@ Different metrics were implemented to evaluate the quality of the panchromatic f
 
 Different visual comparisons were generated, based on the corresponding images and histograms of the hyperspectral set and the results of the pansharpening methods. 
 
+## Diagram
+![Foto de muestra]pansharpening_methodology.png 
+
 ## Notebook contents:
 
 - Hyperspectral data
