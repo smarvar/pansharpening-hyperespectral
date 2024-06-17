@@ -17,7 +17,7 @@ Different metrics were implemented to evaluate the quality of the panchromatic f
 
 Different visual comparisons were generated, based on the corresponding images and histograms of the hyperspectral set and the results of the pansharpening methods. 
 
-## Diagram
+## Methodology diagram
 ![methodology](https://github.com/smarvar/pansharpening-hyperespectral/blob/main/pansharpening_methodology.png)
 
 ## Notebook contents:
@@ -29,7 +29,7 @@ Different visual comparisons were generated, based on the corresponding images a
 - Validation metrics
 - Histogram comparison
 
-### Hyperspectral data (HSI)
+## Hyperspectral data (HSI)
 
 Hyperspectral images from the PRISMA satellite were used in this study. To access the PRISMA data you can visit the following link:  https://prismauserregistration.asi.it/
 
@@ -38,9 +38,9 @@ Once you download the PRISMA hyperspectral image you will have an HDF5 file, the
 Note: if you already have the hyperspectral or multispectral data with the panchromatic image from another satellite, you must view the data format and generate a hyper[i,j,n] matrix where n corresponds to the spectral bands.  In addition, a PANCHRO[I,J] matrix corresponding to the panchromatic image must be generated. Once this is done, you can move on to the preprocessing step. 
 
 ## Results:
+The results presented correspond to a PRISMA hyperspectral capture over the municipality of Punta Alta, northeast of the Bahía Blanca Estuary, province of Buenos Aires, Argentina. 
 
 The image shows a comparison between the panchromatic image, a hyperspectral band and the result of the PCA pansharpening method.
-
 - Pancrhomatic shape: (6000, 6000) 
 - Hyperspectral shape: (1000, 1000, 63)
 - PCA pansharpened shape: (6000, 6000, 63)
