@@ -2,12 +2,12 @@
 
 ## Panchromatic Refinement: A Strategy for Increasing Resolution in Hyperspectral Satellite Imagery
 
-This notebook contains all the functionalities to apply the pansharpening technique to hyperspectral or multispectral images from a high resolution panchromatic image.  The next pansharpening techniques were implemented:   
+This notebook contains all the functionalities to apply the pansharpening technique to hyperspectral or multispectral images from a high resolution panchromatic image. The next pansharpening techniques were implemented:   
 
-- PCA pansharpenig
-- Brovey Transform
+- **PCA pansharpenig**
+- **Brovey Transform**
 
-Both methods allow the spatial resolution of the hyperspectral/multispectral images to be increased to the resolution of the associated panchromatic image. 
+Both methods allow the spatial resolution of the **hyperspectral/multispectral** images to be increased to the resolution of the associated **panchromatic** image. 
 Different metrics were implemented to evaluate the quality of the panchromatic fusion obtained by both methods. These metrics include spatial correlation index (Q), spectral correlation index (SCC), mean squared error (MSE), signal to noise ratio (SNR). 
 Also, different visual comparisons were generated, based on the corresponding images and histograms of the hyperspectral set and the results of the pansharpening methods. 
 
@@ -28,7 +28,7 @@ This repository contains the following files: `pansharpening_notebook.ipynb` wit
 
 ## Hyperspectral data (HSI)
 
-Hyperspectral images from the PRISMA satellite were used in this study. To access the PRISMA data you can visit the following link:  https://prismauserregistration.asi.it/
+Hyperspectral images from the **PRISMA** satellite were used in this study. To access the PRISMA data you can visit the following link:  https://prismauserregistration.asi.it/
 
 Once you download the PRISMA hyperspectral image you will have an HDF5 file, the hyp.open_pansharpened_file function allows you to access the information in the file.  
 
